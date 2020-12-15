@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9ae15872.chunk.css",
+    "main.js": "/static/js/main.ee956878.chunk.js",
+    "main.js.map": "/static/js/main.ee956878.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.872ccb22.js",
+    "runtime-main.js.map": "/static/js/runtime-main.872ccb22.js.map",
+    "static/css/2.28386274.chunk.css": "/static/css/2.28386274.chunk.css",
+    "static/js/2.88bc7fe2.chunk.js": "/static/js/2.88bc7fe2.chunk.js",
+    "static/js/2.88bc7fe2.chunk.js.map": "/static/js/2.88bc7fe2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.28386274.chunk.css.map": "/static/css/2.28386274.chunk.css.map",
+    "static/css/main.9ae15872.chunk.css.map": "/static/css/main.9ae15872.chunk.css.map",
+    "static/js/2.88bc7fe2.chunk.js.LICENSE.txt": "/static/js/2.88bc7fe2.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/Nexa-Light.2bac835e.otf",
+    "static/media/login.7b1b2c53.png": "/static/media/login.7b1b2c53.png",
+    "static/media/logindashboard.ae3b75c3.png": "/static/media/logindashboard.ae3b75c3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.872ccb22.js",
+    "static/css/2.28386274.chunk.css",
+    "static/js/2.88bc7fe2.chunk.js",
+    "static/css/main.9ae15872.chunk.css",
+    "static/js/main.ee956878.chunk.js"
+  ]
+}

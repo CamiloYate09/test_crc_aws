@@ -1,0 +1,60 @@
+{
+  "name": "crc_frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.1.2",
+    "@testing-library/user-event": "^12.2.2",
+    "animate.css": "^4.1.1",
+    "autoprefixer": "^9.8.6",
+    "axios": "^0.21.0",
+    "postcss": "^7.0.35",
+    "postcss-import": "^13.0.0",
+    "react": "^17.0.1",
+    "react-data-table-component": "^6.11.6",
+    "react-dom": "^17.0.1",
+    "react-notifications-component": "^3.0.3",
+    "react-progress-button": "^5.1.0",
+    "react-query": "^2.26.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-select": "^3.1.1",
+    "styled-components": "^5.2.1",
+    "tailwind-styled-components": "^1.0.6",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "npm run watch:css && react-scripts start",
+    "build": "npm run build:css && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
+    "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "postcss-cli": "^7.1.0",
+    "postcss-nested": "^5.0.1"
+  },
+  "proxy": "https://backendcrcv1.herokuapp.com/"
+}
